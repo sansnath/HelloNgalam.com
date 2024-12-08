@@ -27,17 +27,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['continue'])) {
 
         $otp = rand(1000, 9999); 
 
-        $mail = new PHPMailer(true);
+        $sql = "SELECT smtp_host, smtp_username, smtp_password, smtp_port FROM smtp_config WHERE id = 1";
+        $result = $db->query($sql);
+
+        if ($result->num_rows > 0) {
+            $smtp = $result->fetch_assoc();
+    
+            $mail = new PHPMailer(true);
         try {
             $mail->isSMTP();
-            $mail->Host = 'smtp.gmail.com';
+            $mail->Host = $smtp['smtp_host'];
             $mail->SMTPAuth = true;
-            $mail->Username = 'sitompulsamuel625@gmail.com';
-            $mail->Password = 'dgqr ptmm aqie ntrn';  
+            $mail->Username = $smtp['smtp_username'];
+            $mail->Password = $smtp['smtp_password'];
             $mail->SMTPSecure = 'tls';
-            $mail->Port = 587;
+            $mail->Port = $smtp['smtp_port'];
 
-            $mail->setFrom('sitompulsamuel625@gmail.com', 'Hello Ngalam');
+            $mail->setFrom($smtp['smtp_username'], 'Hello Ngalam');
             $mail->addAddress($email);
             $mail->isHTML(true);
             $mail->Subject = 'Kode OTP untuk Reset Password Akun Anda';
@@ -51,6 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['continue'])) {
         } catch (Exception $e) {
             echo "Error: Email tidak dapat dikirim. Mailer Error: {$mail->ErrorInfo}";
         }
+    }
     } else {
         echo "Email tidak terdaftar di sistem kami.";
     }
