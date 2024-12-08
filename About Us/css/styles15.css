@@ -1,0 +1,176 @@
+* {
+    font-family: Poppins;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 114px;
+    flex-shrink: 0;
+    background: linear-gradient(123deg, #FFF -1.13%, #204921 76.51%);
+}
+
+nav {
+    display: flex;
+    align-items: center; 
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav img {
+    width: 74px;
+    height: 59px;
+    flex-shrink: 0;
+}
+
+section img {
+    width: 387px;
+    height: 99px;
+    margin-right: 770px;
+    padding: 7px;
+    flex-shrink: 0;
+}
+
+div.based-content {
+    position: relative;
+    height: 2152px;
+    flex-shrink: 0;
+    background: url('http://localhost/HelloNgalam.com/Program%20Daur%20Ulang/img/Rectangle%203%20(6).png') lightgray 50% / cover no-repeat;
+}
+
+.based-title {
+    text-align: center;
+    text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+    background: linear-gradient(180deg, #15DF2D 0%, #042808 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 34px;
+}
+
+div video {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -190px;
+}
+
+.main-article {
+    width: 925px;
+    color: #FFF;
+    text-align: justify;
+    text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.15);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 650px;
+    margin-left: 160px;
+}
+
+.team-title {
+    text-align: center;
+    text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+    background: linear-gradient(180deg, #15DF2D 0%, #042808 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 70px;
+}
+
+.img-Samuel, .img-Rafi, .img-Rizqi, .img-Atha {
+    width: 248px;
+    height: 411px;
+    flex-shrink: 0;
+    border-radius: 20px;
+}
+
+.img-Samuel {
+    margin-top: 30px;
+    margin-left: 55px;
+}
+
+.img-Rafi {
+    margin-left: 350px;
+    margin-top: -467px;
+}
+
+.img-Rizqi {
+    margin-left: 650px;
+    margin-top: -467px;
+}
+
+.img-Atha {
+    margin-left: 940px;
+    margin-top: -467px;
+}
+
+.nama-Samuel, .nama-Rafi, .nama-Rizqi, .nama-Atha {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.nama-Samuel {
+    margin-left: 63px;
+}
+
+.nama-Rafi {
+    margin-left: 410px;
+}
+
+.nama-Rizqi {
+    margin-left: 670px;
+}
+
+.nama-Atha {
+    margin-left: 990px;
+}
+
+.role-Samuel, .role-Rafi, .role-Rizqi, .role-Atha {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.role-Samuel {
+    margin-left: 100px;
+}
+
+.role-Rafi {
+    margin-left: 410px;
+}
+
+.role-Rizqi {
+    margin-left: 695px;
+}
+
+.role-Atha {
+    margin-left: 1015px;
+}
+
+div audio {
+    position: absolute;
+}

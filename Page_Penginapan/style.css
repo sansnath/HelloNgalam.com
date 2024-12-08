@@ -1,0 +1,331 @@
+* {
+    font-family: "Poppins";
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 13px;
+    padding-right: 76px;
+    padding-top: 18px;
+    background: linear-gradient(123deg, #4CAF50 -1.13%, #204921 76.51%);
+    padding-bottom: 0px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center; 
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+nav img {
+    width: 65px;
+    height: 63px;
+    flex-shrink: 0;
+    background-color: white;
+    background: transparent;
+}
+
+nav a:first-child {
+    margin-left: 0; 
+}
+#header h1 {
+    margin: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.panah {
+    margin-right: 50px;
+}
+
+section{
+    background-image: url(img/Rectangle\ 3\ \(1\).png);
+    padding: 0;
+    margin: 0;
+}
+
+section + section {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.gambar-tengah{
+    display: grid;
+    place-items: center;
+    padding-top: 100px;
+    margin-bottom: 78px;
+}
+
+.penjelasan {
+    margin-left: 164px;
+    margin-right: 164px;
+    color: #FFF;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pencarian {
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 112px;
+    height: 45px;
+}
+
+.pencarian form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E5E5E5;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.search{
+    border: none;
+    outline: none;
+    background: transparent;
+    flex-grow: 1;
+    width: 380px;
+}
+
+.pencarian img {
+    width: 20px; 
+    height: 20px;
+    padding-left: 0px;
+    margin-right: 10px;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E5E5E5; 
+    border-radius: 25px;
+    padding: 1px 10px;
+    height: 45px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333; 
+    font-weight: 500;
+    gap: 10px; 
+}
+
+.filter img {
+    width: 20px; 
+    height: 20px;
+}
+
+.filter button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 170px;
+    padding: 10px;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.btn {
+    height:45px; 
+    width: 300px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    background: linear-gradient(123deg, #4CAF50, #204921);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+section {
+    background-image: url(img/Rectangle\ 3\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0; /* Hapus margin antar section */
+}
+
+section + section {
+    margin-top: 0; /* Pastikan tidak ada margin di antara section */
+    padding-top: 0;
+}
+
+.Reco-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(90deg, #4CAF50 0%, #204921 100%);
+    padding-top: 0;
+    margin-top: 0; /* Hapus margin di bagian atas */
+    padding-bottom: 0;
+    color: #FFF;
+}
+
+.Reco-header{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    background: linear-gradient(90deg, #4CAF50 0%, #204921 100%);
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0%;
+    color: #FFF;
+}
+
+.Reco-header h1 {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hotel-grid {
+    background-image: url(img/Rectangle\ 3\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-areas:
+        "hotel1 hotel2"
+        "hotel3 hotel4"
+        "hotel5 hotel5";
+    gap: 20px;
+    justify-content: center;
+}
+
+#hotel1 { grid-area: hotel1; }
+#hotel2 { grid-area: hotel2; }
+#hotel3 { grid-area: hotel3; }
+#hotel4 { grid-area: hotel4; }
+#hotel5 { grid-area: hotel5; }
+
+.hotel-card {
+    width: 500px;
+    height: 510px;
+    padding-bottom: 10px;
+    background: linear-gradient(180deg, #737373 0%, #D9D9D9 99.99%);
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    margin: 20px auto;
+    text-decoration: none; 
+    color: inherit; 
+    display: block;
+}
+
+.hotel-card img {
+    margin-top: 25px;
+    width: 358px;
+    height: 269px;
+    flex-shrink: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.hotel-info {
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.hotel-info h3 {
+    margin: 0px 0;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.rating {
+    
+    color: #D9FF00;
+    font-size: 30px;
+}
+
+.review {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: #000;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    margin-right: 200px;
+    font-weight: bold;
+}
+

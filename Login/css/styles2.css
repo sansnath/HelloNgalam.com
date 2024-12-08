@@ -1,0 +1,218 @@
+* {
+    font-family: Poppins;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 114px;
+    flex-shrink: 0;
+    background: linear-gradient(123deg, #FFF -1.13%, #204921 76.51%);
+}
+
+nav {
+    display: flex;
+    align-items: center; 
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav img {
+    width: 74px;
+    height: 59px;
+    flex-shrink: 0;
+}
+
+section img {
+    width: 387px;
+    height: 99px;
+    margin-right: 770px;
+    padding: 7px;
+    flex-shrink: 0;
+}
+
+div.based-content {
+    position: relative;
+    height: 919px;
+    flex-shrink: 0;
+    background: url('https://s3-alpha-sig.figma.com/img/a2e1/0e17/63ec565e5fec5c505c6b13a709deb027?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p5Q9SqVNmem2k569pnfP7~65U4Y9OY3GlUkb4wViwG7aos-hbi~mQ5V1Kdn2~WeRIpbFDZyO1EBMNsUhD1cPb3y-~4jYiGxYmCeit0WfImHsbQj82vydpx5DtPV48HZql1hZi1E7HF0NLJ~qd9qlzsAdDrlARmVUeSIRVtzkN6jnx4W-Ou7mTwsd1d9CrN~p7ppFMoc2lWDAEBxQJkduFlUtbNb141HFBVFY0pLdJZEBKobuZJMaaxAqTwD0NEusBIUymPKZG~kBOl4SMLrZtAQ5i39-0dqDMeWnf~QyoxjrcAfho9FNoi3fKXHL5c2~Fd8TxfggP0r1~KmRXyJkuw__') lightgray 50% / cover no-repeat;
+}
+
+div.top-content {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.form-image {
+    width: 505px;
+    height: 704px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+.form-content {
+    width: 600px;
+    height: 704px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #15DF2D;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.login-title {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: linear-gradient(180deg, #15DF2D 0%, #042808 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 33px;
+}
+
+.form-input-email {
+    position: relative;
+    width: 70%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+    margin-left: 90px;
+}
+
+.form-input-email label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: 500;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.form-input-email input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding: 0 35px 0 5px;
+}
+
+.form-input-email input:focus~label,
+.form-input-email input:valid~label {
+    top: -20px;
+    transform: translateY(0);
+    font-size: 12px;
+    color: #333;
+}
+
+.form-input-email img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.form-input-password {
+    position: relative;
+    width: 70%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+    margin-left: 90px;
+    margin-top: 70px;
+}
+
+.form-input-password label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-30%);
+    font-size: 16px;
+    font-weight: 500;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.form-input-password input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding: 0 35px 0 5px;
+}
+
+.form-input-password input:focus~label,
+.form-input-password input:valid~label {
+    top: -10px;
+    transform: translateY(0);
+    font-size: 14px;
+    color: #333;
+}
+
+.form-input-password img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.button-login {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 380px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    background: linear-gradient(180deg, #15DF2D 0%, #474646 100%);
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
+.create-account {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.forget-pw {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 350px;
+    margin-top: -23px;
+}
+
+div a {
+    display: block;
+    text-decoration: none;
+}
+

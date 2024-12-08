@@ -1,0 +1,192 @@
+* {
+    font-family: Poppins;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 114px;
+    flex-shrink: 0;
+    background: linear-gradient(123deg, #FFF -1.13%, #204921 76.51%);
+}
+
+nav {
+    display: flex;
+    align-items: center; 
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav img {
+    width: 74px;
+    height: 59px;
+    flex-shrink: 0;
+}
+
+section img {
+    width: 387px;
+    height: 99px;
+    margin-right: 770px;
+    padding: 7px;
+    flex-shrink: 0;
+}
+
+div.based-content {
+    position: relative;
+    height: 919px;
+    flex-shrink: 0;
+    background: url('https://s3-alpha-sig.figma.com/img/a2e1/0e17/63ec565e5fec5c505c6b13a709deb027?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DJ50HtMSv1o8cEVfxaU-cH0GZ5Vql6IQIhSJM~S~PAY0LjzpZO740y6xg4CtLPBmmr9tShmKAHK1f8sUYJnz~2KYxzzovNkvoYi0F1qg8JF29j24YbxbYSDvH8eGQRhIS~Nw2zn5RkM6KzQSnK1qvmdwBBsOkiSQ3MCaF6yf4wMrJtxq32g7aOKfi9TwHqCdSjCk38VeiMzQ77rajMpsi3h6v6wApw8ySa~HBkRpuKFsBRAWdPI2qzAjuFUTuyzdKLBhYYo01W2k8MBTJp7zuLuf8vmZnkJFtFxbC7qXPaNcPYEp5kwXGfankflKazin1P-JY9VaviP5-zPhNyZhMQ__') lightgray 50% / cover no-repeat;
+}
+
+div.top-content {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.form-image {
+    display: flex;
+    width: 440px;
+    height: 450px;
+    padding-bottom: 48px;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: -40px;
+    margin-top: 100px;
+}
+
+.form-content {
+    width: 650px;
+    height: 650px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #15DF2D;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 40px;
+    margin-top: 35px;
+}
+
+.form-title {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    background: linear-gradient(180deg, #15DF2D 0%, #042808 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 38px;
+}
+
+.form-input-nama, .form-input-alamat, .form-input-no-telp, .form-input-email, .form-input-list-barang {
+    position: relative;
+    display: flex;
+    width: 570px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #EBECEB;
+    border-radius: 15px;
+}
+
+.form-input-nama {
+    margin-left: 41px;
+    margin-top: -25px;
+}
+
+.form-input-alamat {
+    margin-top: 10px;
+    margin-left: 41px;
+}
+
+.form-input-no-telp {
+    margin-top: 10px;
+    margin-left: 41px;
+}
+
+.form-input-email {
+    margin-top: 10px;
+    margin-left: 41px;
+}
+
+.form-input-list-barang {
+    margin-top: 10px;
+    margin-left: 46px;
+    height: 150px;
+}
+
+.form-input-nama label, .form-input-alamat label, .form-input-no-telp label, .form-input-email label {
+    text-align: center;
+    position: absolute;
+    color: black;
+    font-size: 16px;
+}
+
+.form-input-nama input, .form-input-alamat input, .form-input-no-telp input, .form-input-email input {
+    text-align: center;
+    width: 150%;
+    height: 100%;
+    background: transparent;
+    font-size: 16px;
+    color: black;
+    outline: none;
+    border: none;
+}
+
+.form-input-nama input:focus ~ label,
+.form-input-nama input:not(:placeholder-shown)~label, 
+.form-input-alamat input:focus ~ label,
+.form-input-alamat input:not(:placeholder-shown)~label, 
+.form-input-no-telp input:focus ~ label,
+.form-input-no-telp input:not(:placeholder-shown)~label, 
+.form-input-email input:focus ~ label,
+.form-input-email input:not(:placeholder-shown)~label {
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+}
+
+.button-send {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 380px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    background: linear-gradient(180deg, #15DF2D 0%, #474646 100%);
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+#label-plastik, #jumlah-plastik, #label-botol, #jumlah-botol {
+    margin-top: -100px;
+    margin-left: 10px;
+}
+
+#label-kardus, #jumlah-kardus, #label-kaleng, #jumlah-kaleng {
+    margin-left: 10px;
+}
+
+#label-baju-bekas, #jumlah-baju-bekas, #label-kain-bekas, #jumlah-kain-bekas {
+    margin-left: 5px;
+}
+
+
+
+
+
+

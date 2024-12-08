@@ -1,0 +1,115 @@
+* {
+    font-family: "Poppins";
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 13px;
+    padding-right: 76px;
+    padding-top: 18px;
+    background: linear-gradient(123deg, #FFF -1.13%, #204921 76.51%);
+    padding-bottom: 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center; 
+}
+
+.nav-panah {
+    background-color: transparent;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+nav img {
+    width: 65px;
+    height: 63px;
+    flex-shrink: 0;
+    background-color: white;
+    background: transparent;
+}
+
+nav a:first-child {
+    margin-left: 0; 
+}
+
+.panah {
+    background-color: white;
+    background: transparent;
+    margin-right: 0px;
+}
+
+.logo {
+    margin-top: -15px;
+    margin-left: -270px;
+}
+
+div.based-content {
+    position: relative;
+    height: 1563px;
+    flex-shrink: 0;
+    background: url('http://localhost/HelloNgalam.com/Program%20Daur%20Ulang/img/Rectangle%203%20(6).png') lightgray 50% / cover no-repeat;
+}
+
+div img {
+    width: 440px;
+    height: 424px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    padding: 32px;
+    margin-left: 390px;
+}
+
+.main-article {
+    width: 1113px;
+    color: #FFF;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 65px;
+    margin-top: 50px;
+}
+
+.join-program {
+    color: #FFF;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 45px;
+    margin-top: 150px;
+}
+
+.button-daftar {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 496px;
+    height: 97px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    background: linear-gradient(180deg, #15DF2D 0%, #474646 100%);
+    margin-top: 30px;
+    margin-left: 375px;
+}

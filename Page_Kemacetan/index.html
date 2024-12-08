@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="./index.js"></script>
+    <title>Hello Ngalam</title>
+</head>
+<body>
+    <header id="header">
+        <nav class="nav-panah">
+            <a href="http://localhost/HelloNgalam.com/HomePage_After/index1.php"><img class="panah" src="img/🦆 icon _arrow back_.svg" alt=""></a>
+        </nav>
+        <img class="logo" src="img/logo_hello_ngalam-removebg-preview 3.png" alt="">       
+        <nav>
+            <a href="">Home</a>
+            <a href="">Contact</a>
+            <a href="">About Us</a>
+            <a href=""><img src="img/Vector.svg" alt=""></a>
+        </nav>
+    </header>
+    <section id="landing">
+        <div class="gambar-tengah">
+            <img src="img/macet 1 (1).png" alt="gambar-hotel">
+        </div>
+        <div class = "penjelasan">
+            <p>Selamat datang di platform pemantauan kemacetan terbaik! Dapatkan informasi real-time mengenai kondisi lalu lintas melalui fitur tracking kemacetan kami. Cari tahu area mana yang sedang mengalami kemacetan, dan sesuaikan pencarian Anda dengan filter seperti lokasi, waktu, serta tingkat kepadatan lalu lintas. Temukan area dengan lalu lintas yang lebih lancar dan manfaatkan peta interaktif untuk memantau kondisi lalu lintas secara langsung. Dengan fitur pelacakan kemacetan berbasis lokasi, Anda dapat mengetahui tingkat kemacetan di sekitar Anda dan merencanakan perjalanan dengan lebih cermat. Nikmati perjalanan yang lebih efisien dan bebas stres bersama fitur ini!</p>
+        </div>
+        <div class="search-container">
+            <div class="pencarian">
+                <form action="">
+                    <img src="img/Magnifying glass.png" alt="">
+                    <div>
+                        <label for="Search"></label>
+                        <input class="search" type="text" placeholder="Search">
+                    </div>
+                </form>
+            </div>
+            
+
+            <div class="filter">
+                <button>Filter</button>
+                <img src="img/Filter.png" alt="Filter Icon">
+            </div>
+    </div>
+
+    <div class="button-container">
+        <button class="btn">Search</button>
+    </div>
+    <div id="map" style="width: 900px; height: 450px;"></div>
+
+    </div>
+    </section>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAn3aEXDneHDIS0UN12L4_kNRXm3FJUxP4
+&callback=initMap&v=weekly"
+      defer
+    ></script>    
+</body>
+</html>

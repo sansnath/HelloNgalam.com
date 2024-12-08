@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/styles15.css">
+    <style>
+        .audio-controls {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <a href="http://localhost/HelloNgalam.com/HomePage_After/index1.php"><img src="img/🦆 icon _arrow back_.svg" alt=""></a>
+        </nav>
+        <section>
+            <a href=""><img src="img/logo_hello_ngalam-removebg-preview 2.png" alt=""></a>
+        </section>   
+    </header>
+
+    <main>
+        <div class="based-content">
+            <div>
+                <div class="based-title">About Us</div>
+            </div>
+            <div>
+                <video src="video/5009a0e0392e6f86a23e5712fb0c6958ee77a45d.mp4" width="1000" height="910" autoplay loop></video>
+            </div>
+            <article class="main-article">
+                <p>
+                    Hello Ngalam adalah sebuah platform berbasis web yang dirancang
+                    dengan tujuan utama untuk memudahkan akses dan pengelolaan
+                    informasi terkait perkembangan aktivitas yang terletak di Kota Malang, 
+                    Indonesia. Sebagai salah satu kota besar di Indonesia dan menjadi salah 
+                    satu pusat pariwisata Indonesia, kami menyadari pentingnya
+                    menyediakan sarana yang efisien dan terintegrasi untuk membantu 
+                    masyarakat setempat dan wisatawan dalam menjalani berbagai aspek
+                    kehidupan. Sistem ini mencakup berbagai layanan penting, termasuk
+                    pemetaan ruang hijau, pengelolaan sampah dan daur ulang, pelaporan
+                    masalah lingkungan perkotaan, dashboard polusi, tracking kemacetan,
+                    info pembelian tiket wisata, info pembelian tiket event khusus, dan info 
+                    tempat penginapan di Kota Malang.
+                </p>
+            </article>
+            <div>
+                <div class="team-title">Our Core Team</div>
+            </div>
+            <div>
+                <div class="img-Samuel">
+                    <a href=""><img src="img/Samuel.png" alt=""></a>
+                </div>
+                <div>
+                    <div class="nama-Samuel">Samuel Nathanael</div>
+                    <div class="role-Samuel">Back End Developer</div>
+                </div>
+            </div>
+            <div>
+                <div class="img-Rafi">
+                    <a href=""><img src="img/Rafi.png" alt=""></a>
+                </div>
+                <div>
+                    <div class="nama-Rafi">Rafi Cahya</div>
+                    <div class="role-Rafi">Product Manager</div>
+                </div>
+            </div>
+            <div>
+                <div class="img-Rizqi">
+                    <a href=""><img src="img/Rizqi.png" alt=""></a>
+                </div>
+                <div>
+                    <div class="nama-Rizqi">Rizqi Fahruddien</div>
+                    <div class="role-Rizqi">Front End Developer</div>
+                </div>
+            </div>
+            <div>
+                <div class="img-Atha">
+                    <a href=""><img src="img/Atha.png" alt=""></a>
+                </div>
+                <div>
+                    <div class="nama-Atha">Tahara Putra</div>
+                    <div class="role-Atha">UI/UX Designer</div>
+                </div>
+            </div>
+            <div>
+                <audio id="background-audio" src="audio/The 1975_About You.mp3" autoplay loop></audio>
+                <div class="audio-controls">
+                    <label for="volume-control">Adjust Volume:</label>
+                    <input id="volume-control" type="range" min="0" max="1" step="0.1" value="0.13">
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        const audio = document.getElementById('background-audio');
+        const volumeControl = document.getElementById('volume-control');
+
+        audio.volume = 0.13;
+
+        volumeControl.addEventListener('input', (event) => {
+            audio.volume = event.target.value;
+        });
+    </script>
+</body>
+</html>
